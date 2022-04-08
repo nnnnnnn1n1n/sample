@@ -1,2 +1,2 @@
-# sample
-Sample web
+# Sample
+This is sample web
