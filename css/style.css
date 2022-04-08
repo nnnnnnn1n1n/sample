@@ -3,7 +3,12 @@
     --pink: #fce8ff;
     --yellow: #ffc457;
   }
+  @font-face {
+    font-family: RockfordSans;
+    src: url("./font/RockfordSans-Light.otf") format("opentype");
+}
 body{
+    font-family: RockfordSans;
     background-color: var(--pink);
     min-height: 100vh;
 }
