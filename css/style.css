@@ -5,11 +5,14 @@
   }
   @font-face {
     font-family: RockfordSans;
-    src: url("./font/RockfordSans-Light.otf") format("opentype");
+    /*src: url("./font/RockfordSans-Light.otf") format("opentype")*/
+    src: url("./font/Luthon Southard Serif.ttf") format("truetype")
+    
 }
 body{
     font-family: RockfordSans;
-    background-color: var(--pink);
+    /*background-color: var(--pink);*/
+    background-color: black;
     min-height: 100vh;
 }
 h1{
