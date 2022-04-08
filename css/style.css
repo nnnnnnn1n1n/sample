@@ -1,7 +1,12 @@
+
+:root {
+    --pink: #fce8ff;
+    --yellow: #ffc457;
+  }
 body{
-    background-color: theme('colors.pink');
+    background-color: var(--pink);
     min-height: 100vh;
 }
 h1{
-    color:theme('colors.yellow');
+    color: var(--yellow);
 }
