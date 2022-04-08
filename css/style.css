@@ -12,6 +12,11 @@
     font-family: LuthonSouthardSerif;
     src: url("../font/LuthonSouthardSerif.ttf") format("truetype")
 }
+
+@font-face {
+    font-family: Roxierossa;
+    src: url("../font/Roxierossa.ttf") format("truetype")
+}
 body{
     /*background-color: var(--pink);*/
     background-color: black;
@@ -23,4 +28,9 @@ h1{
 }
 h2{
     font-family: LuthonSouthardSerif;
+    color: var(--pink);
+}
+h3{
+    font-family: Roxierossa;
+    color: var(--pink);
 }
