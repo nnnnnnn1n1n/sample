@@ -5,16 +5,22 @@
   }
   @font-face {
     font-family: RockfordSans;
-    /*src: url("./font/RockfordSans-Light.otf") format("opentype")*/
-    src: url("./font/LuthonSouthardSerif.ttf") format("truetype")
-    
+    src: url("/font/RockfordSans-Light.otf") format("opentype")
+}
+
+@font-face {
+    font-family: LuthonSouthardSerif;
+    src: url("/font/LuthonSouthardSerif.ttf") format("truetype")
 }
 body{
-    font-family: RockfordSans;
     /*background-color: var(--pink);*/
     background-color: black;
     min-height: 100vh;
 }
 h1{
+    font-family: RockfordSans;
     color: var(--yellow);
+}
+h2{
+    font-family: LuthonSouthardSerif;
 }
