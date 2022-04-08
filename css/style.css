@@ -1,4 +1,7 @@
 body{
-    background-color: pink;
+    background-color: theme('colors.pink');
     min-height: 100vh;
+}
+h1{
+    color:theme('colors.yellow');
 }
