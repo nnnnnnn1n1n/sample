@@ -2,6 +2,7 @@
 :root {
     --pink: #fce8ff;
     --yellow: #ffc457;
+    --sky:#afe8ff;
   }
   @font-face {
     font-family: RockfordSans;
@@ -19,7 +20,7 @@
 }
 body{
     /*background-color: var(--pink);*/
-    background-color: black;
+    background-color: var(--sky);
     min-height: 100vh;
 }
 h1{
