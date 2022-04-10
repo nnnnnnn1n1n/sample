@@ -2,6 +2,7 @@
 :root {
     --pink: #fce8ff;
     --yellow: #ffc457;
+    --yellow-light:#e9e5d8;
     --sky:#afe8ff;
   }
   @font-face {
@@ -20,7 +21,7 @@
 }
 body{
     /*background-color: var(--pink);*/
-    background-color: var(--sky);
+    background-color: var(--yellow-light);
     min-height: 100vh;
 }
 h1{
@@ -40,5 +41,5 @@ h3{
     height:80vh;
 }
 .lh-80{
-line-height:80vh;
+line-height:80vh !important;
 }
