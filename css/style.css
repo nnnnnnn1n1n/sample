@@ -24,8 +24,9 @@ body{
     min-height: 100vh;
 }
 h1{
-    font-family: RockfordSans;
-    color: var(--yellow);
+    font-family: LuthonSouthardSerif;
+    /*font-family: RockfordSans;
+    color: var(--yellow);*/
 }
 h2{
     font-family: LuthonSouthardSerif;
@@ -34,4 +35,7 @@ h2{
 h3{
     font-family: Roxierossa;
     color: var(--pink);
+}
+.h-100{
+    height:100vh;
 }
