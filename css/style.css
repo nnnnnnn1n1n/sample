@@ -36,6 +36,9 @@ h3{
     font-family: Roxierossa;
     color: var(--pink);
 }
-.h-100{
-    height:100vh;
+.h-80{
+    height:80vh;
+}
+.lh-80{
+line-height:80vh;
 }
