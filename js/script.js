@@ -34,4 +34,4 @@ const getHashOfString = (str) => {
   return hash;
 };
 console.log(generateHSL($('h1').text()));
-$('body').css('background-color',generateHSL($('h1').text());
+$('body').css('background-color',generateHSL($('h1').text()));
