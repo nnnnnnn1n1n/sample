@@ -33,4 +33,4 @@ const getHashOfString = (str) => {
   hash = Math.abs(hash);
   return hash;
 };
-console.log(generateHSL('Flower'));
+console.log(generateHSL($('h1').text()));
