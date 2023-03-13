@@ -1,4 +1,4 @@
-tailwind.config = {
+/*tailwind.config = {
     theme: {
       extend: {
         colors: {
@@ -6,7 +6,7 @@ tailwind.config = {
         }
       }
     }
-  }
+  }*/
 
 const hRange = [0, 360];
 const sRange = [50, 75];
